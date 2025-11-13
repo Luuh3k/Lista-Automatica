@@ -66,6 +66,7 @@ Sistema desenvolvido em Java para gestão completa de lojas de peças para celul
 ## 🚀 Demonstração
 
 ### 🎮 Menu Principal
+
 ```bash
 === SISTEMA LOJA DE PEÇAS PARA CELULAR ===
 📱 Baterias • Telas • Tampas 📱
@@ -146,7 +147,8 @@ Clique direito em Main.java → Run 'Main.main()'
 
 Ou use o atalho: Ctrl+Shift+F10
 
-🎮 Como Usar
+### 🎮 Como Usar
+
 📋 Fluxo de Trabalho Diário
 
 # 1. 📊 VER ESTOQUE ATUAL
