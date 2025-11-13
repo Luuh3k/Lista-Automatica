@@ -28,16 +28,48 @@ Sistema desenvolvido para gerenciar assistências técnicas de celulares, oferec
 
 ## ✈️ Funcionalidades
 
-- ✅ Controle de estoque de peças
-- ✅ Gestão de vendas
-- ✅ Controle de pedidos
-- ✅ Cadastro de clientes
-- ✅ Relatórios financeiros
-- ✅ Controle de ordens de serviço
+### 🏪 Gestão de Estoque
+| Funcionalidade | Descrição | Status |
+|----------------|-----------|---------|
+| **Cadastro de Peças** | Adicionar novas peças ao estoque | ✅ Implementado |
+| **Atualização** | Modificar dados e quantidades | ✅ Implementado |
+| **Exclusão** | Remover peças (com validações) | ✅ Implementado |
+| **Busca Inteligente** | Encontrar peças por nome | ✅ Implementado |
+| **Categorias Automáticas** | Organização por tipo | ✅ Implementado |
+
+### 💰 Controle Comercial
+| Funcionalidade | Descrição | Status |
+|----------------|-----------|---------|
+| **Registro de Vendas** | Com verificação de estoque | ✅ Implementado |
+| **Sistema de Devoluções** | Estorno automático na lista | ✅ Implementado |
+| **Pedidos Pendentes** | Lista de espera quando falta estoque | ✅ Implementado |
+| **Histórico Completo** | Registro de todas as movimentações | ✅ Implementado |
+
+### 📈 Relatórios & Analytics
+| Funcionalidade | Descrição | Status |
+|----------------|-----------|---------|
+| **Lista 16h-16h** | Período automático para pedidos | ✅ Implementado |
+| **Consolidação por Categoria** | Agrupamento inteligente | ✅ Implementado |
+| **Exportação para TXT** | Salvamento em arquivo | ✅ Implementado |
+| **Relatório de Devoluções** | Análise específica de estornos | ✅ Implementado |
 
 ## 🖥️ Demonstração
 
-*[Incluir screenshots ou gifs demonstrando o sistema]*
+=== SISTEMA LOJA DE PEÇAS PARA CELULAR ===
+📱 Baterias • Telas • Tampas 📱
+
+1. 📋 Listar Peças por Categoria
+2. ⚙️  Gerenciar Peças (CRUD)
+3. 💰 Registrar Saída/Venda
+4. 📥 Registrar Entrada/Compra  
+5. 🔄 Registrar Devolução
+6. 📊 Ver Histórico Completo
+7. ⏱️  Últimas Movimentações
+8. ✏️  Gerenciar Saídas
+9. ⏳ Pedidos Pendentes
+10. 📦 Lista Período 16h-16h
+11. 🔄 Ver Devoluções do Período
+0. 🚪 Sair
 
 ## ⚙️ Tecnologias
 
@@ -62,11 +94,30 @@ mvn install
 # Execute a aplicação
 mvn spring-boot:run
 
-##📘 Como Usar
-Configure o banco de dados no arquivo application.properties
+### 🏗️ Arquitetura
 
-Execute a aplicação
+Lista-Automatica/
+├── 📁 src/
+│   └── 📁 main/
+│       └── 📁 java/
+│           └── 📁 com/
+│               └── 📁 empresa/
+│                   └── 📁 pecas/
+│                       ├── 📁 model/
+│                       │   ├── 📄 Peca.java
+│                       │   ├── 📄 Historico.java
+│                       │   └── 📄 PedidoPendente.java
+│                       ├── 📁 repository/
+│                       │   ├── 📄 PecaRepository.java
+│                       │   ├── 📄 HistoricoRepository.java
+│                       │   └── 📄 PedidoPendenteRepository.java
+│                       ├── 📁 service/
+│                       │   └── 📄 PecaService.java
+│                       └── 📄 Main.java
+└── 📄 README.md
 
-Acesse http://localhost:8080
 
-Cadastre peças, clientes e inicie as vendas
+👨‍💻 Autor
+Luuh3k - lucas.digital18@gmail.com
+GitHub: @Luuh3k
+LinkedIn: https://www.linkedin.com/in/costalucas96/
