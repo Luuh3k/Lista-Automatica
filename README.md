@@ -1,81 +1,72 @@
-📱 Sistema de Gestão para Loja de Peças de Celular
+# 📱 Sistema de Gestão para Loja de Peças de Celular
+
 <div align="center">
-https://img.shields.io/badge/Java-11+-orange?style=for-the-badge&logo=java
-https://img.shields.io/badge/License-MIT-blue?style=for-the-badge
-https://img.shields.io/badge/Status-Em%2520Produ%C3%A7%C3%A3o-green?style=for-the-badge
 
-Sistema completo para controle de estoque, vendas e pedidos de peças para celular
+![Java](https://img.shields.io/badge/Java-11+-orange?style=for-the-badge&logo=java)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Em%20Produção-green?style=for-the-badge)
 
-https://img.shields.io/badge/GitHub-Reposit%C3%B3rio-black?style=flat-square&logo=github
-https://img.shields.io/badge/Contribui%C3%A7%C3%B5es-Bem--vindas-brightgreen?style=flat-square
+**Sistema completo para controle de estoque, vendas e pedidos de peças para celular**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?style=flat-square&logo=github)](https://github.com/Luuh3k/Lista-Automatica)
+[![Issues](https://img.shields.io/badge/Contribuições-Bem--vindas-brightgreen?style=flat-square)](https://github.com/Luuh3k/Lista-Automatica/issues)
 
 </div>
-📋 Índice
-📖 Sobre o Projeto
 
-✨ Funcionalidades
+## 📋 Índice
+- [📖 Sobre o Projeto](#-sobre-o-projeto)
+- [✨ Funcionalidades](#-funcionalidades)
+- [🚀 Demonstração](#-demonstração)
+- [🛠️ Tecnologias](#️-tecnologias)
+- [📦 Instalação](#-instalação)
+- [🎮 Como Usar](#-como-usar)
+- [🏗️ Arquitetura](#️-arquitetura)
+- [📊 Exemplos](#-exemplos)
+- [🤝 Contribuindo](#-contribuindo)
+- [📄 Licença](#-licença)
 
-🚀 Demonstração
+## 📖 Sobre o Projeto
 
-🛠️ Tecnologias
-
-📦 Instalação
-
-🎮 Como Usar
-
-🏗️ Arquitetura
-
-📊 Exemplos
-
-🤝 Contribuindo
-
-📄 Licença
-
-📖 Sobre o Projeto
 Sistema desenvolvido em Java para gestão completa de lojas de peças para celular. Controla estoque, vendas, devoluções e gera relatórios automáticos para pedidos com fornecedores.
 
-🎯 Destaques:
+**🎯 Destaques:**
+- ✅ **Período automático 16h-16h** para listas de pedidos
+- ✅ **Sistema inteligente** de devoluções
+- ✅ **CRUD completo** de peças
+- ✅ **Interface console** intuitiva
+- ✅ **Relatórios automáticos** por categoria
 
-✅ Período automático 16h-16h para listas de pedidos
+## ✨ Funcionalidades
 
-✅ Sistema inteligente de devoluções
+### 🏪 Gestão de Estoque
+| Funcionalidade | Descrição | Status |
+|----------------|-----------|---------|
+| **Cadastro de Peças** | Adicionar novas peças ao estoque | ✅ Implementado |
+| **Atualização** | Modificar dados e quantidades | ✅ Implementado |
+| **Exclusão** | Remover peças (com validações) | ✅ Implementado |
+| **Busca Inteligente** | Encontrar peças por nome | ✅ Implementado |
+| **Categorias Automáticas** | Organização por tipo | ✅ Implementado |
 
-✅ CRUD completo de peças
+### 💰 Controle Comercial
+| Funcionalidade | Descrição | Status |
+|----------------|-----------|---------|
+| **Registro de Vendas** | Com verificação de estoque | ✅ Implementado |
+| **Sistema de Devoluções** | Estorno automático na lista | ✅ Implementado |
+| **Pedidos Pendentes** | Lista de espera quando falta estoque | ✅ Implementado |
+| **Histórico Completo** | Registro de todas as movimentações | ✅ Implementado |
 
-✅ Interface console intuitiva
+### 📈 Relatórios & Analytics
+| Funcionalidade | Descrição | Status |
+|----------------|-----------|---------|
+| **Lista 16h-16h** | Período automático para pedidos | ✅ Implementado |
+| **Consolidação por Categoria** | Agrupamento inteligente | ✅ Implementado |
+| **Exportação para TXT** | Salvamento em arquivo | ✅ Implementado |
+| **Relatório de Devoluções** | Análise específica de estornos | ✅ Implementado |
 
-✅ Relatórios automáticos por categoria
+## 🚀 Demonstração
 
-✨ Funcionalidades
-
-🏪 Gestão de Estoque
-
-Funcionalidade	Descrição	Status
-Cadastro de Peças	Adicionar novas peças ao estoque	✅ Implementado
-Atualização	Modificar dados e quantidades	✅ Implementado
-Exclusão	Remover peças (com validações)	✅ Implementado
-Busca Inteligente	Encontrar peças por nome	✅ Implementado
-Categorias Automáticas	Organização por tipo	✅ Implementado
-
-💰 Controle Comercial
-
-Funcionalidade	Descrição	Status
-Registro de Vendas	Com verificação de estoque	✅ Implementado
-Sistema de Devoluções	Estorno automático na lista	✅ Implementado
-Pedidos Pendentes	Lista de espera quando falta estoque	✅ Implementado
-Histórico Completo	Registro de todas as movimentações	✅ Implementado
-
-📈 Relatórios & Analytics
-
-Funcionalidade	Descrição	Status
-Lista 16h-16h	Período automático para pedidos	✅ Implementado
-Consolidação por Categoria	Agrupamento inteligente	✅ Implementado
-Exportação para TXT	Salvamento em arquivo	✅ Implementado
-Relatório de Devoluções	Análise específica de estornos	✅ Implementado
-
-🚀 Demonstração
-🎮 Menu Principal
-
+### 🎮 Menu Principal
+```bash
 === SISTEMA LOJA DE PEÇAS PARA CELULAR ===
 📱 Baterias • Telas • Tampas 📱
 
