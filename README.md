@@ -116,12 +116,14 @@ Arquitetura	https://img.shields.io/badge/POO-Orientada%2520a%2520Objetos-purple
 </div>
 
 📦 Instalação
+
 ⚙️ Pré-requisitos
 Java 11 ou superior
 
 Git
 
 Maven (opcional)
+
 
 🚀 Execução Rápida
 
@@ -159,7 +161,10 @@ Opção 5 → Remove automaticamente da lista
 # 4. 📦 GERAR LISTA PARA PEDIDOS
 Opção 10 → Lista consolidada 16h-16h
 
+
 🎯 Estoque Inicial Pré-Cadastrado
+
+
 Categoria	Peça	Estoque	Localização
 🔋 Baterias	iPhone 11	15	Prateleira A1
 🔋 Baterias	Samsung S20	12	Prateleira A2
@@ -170,6 +175,7 @@ Categoria	Peça	Estoque	Localização
 🎯 Tampas	iPhone 13	20	Gaveta C1
 🎯 Tampas	Samsung S21	18	Gaveta C2
 🎯 Tampas	Xiaomi	25	Gaveta C3
+
 
 🏗️ Arquitetura
 
@@ -193,7 +199,9 @@ loja-pecas-celular/
 │                       └── 📄 Main.java
 └── 📄 README.md
 
+
 🔧 Padrão Arquitetural MRS
+
 Model: Entidades de dados (Peca, Historico, PedidoPendente)
 
 Repository: Camada de acesso a dados (in-memory)
@@ -229,6 +237,7 @@ Saída:
 🔄 Lista atualizada: Tela iPhone 12: 1 unidade (2 - 1)
 🔄 Histórico de devolução registrado
 
+
 ⚠️ Estoque Insuficiente
 
 // Quando não há estoque suficiente
@@ -238,19 +247,7 @@ Saída:
 ⏳ PEDIDO PENDENTE: Estoque insuficiente
 📋 Criado pedido na lista de espera (ID: 1)
 
-🤝 Contribuindo
-Contribuições são muito bem-vindas! Siga estos passos:
 
-📋 Como Contribuir
-Fork o projeto
-
-Crie uma branch para sua feature (git checkout -b feature/AmazingFeature)
-
-Commit suas mudanças (git commit -m 'Add some AmazingFeature')
-
-Push para a branch (git push origin feature/AmazingFeature)
-
-Abra um Pull Request
 
 🎯 Roadmap de Melhorias
 Conexão com banco de dados SQL
@@ -275,18 +272,13 @@ Mantenha a arquitetura MRS
 Escreva testes unitários para novas features
 
 👨‍💻 Autor
-Lucas Costa- lucas.digital18@gmail.com
+Lucas Costa - lucas.digital18@gmail.com
 
 GitHub: [@seu-usuario](https://github.com/Luuh3k)
 
 LinkedIn: [Seu Perfil](https://www.linkedin.com/in/costalucas96/)
 
 
-
 🙏 Agradecimentos
+-Inspirado nas necessidades reais de lojas de assistência técnica
 
-Inspirado nas necessidades reais de lojas de assistência técnica
-
-Comunidade Java por recursos e exemplos
-
-Contribuidores que ajudaram a melhorar o projeto
