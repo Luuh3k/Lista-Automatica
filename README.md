@@ -1,73 +1,73 @@
-# 📱 Sistema de Gestão para Loja de Peças de Celular
-
 <div align="center">
+https://img.shields.io/badge/Java-11+-orange?style=for-the-badge&logo=java
+https://img.shields.io/badge/License-MIT-blue?style=for-the-badge
+https://img.shields.io/badge/Status-Em%2520Produ%C3%A7%C3%A3o-green?style=for-the-badge
 
-![Java](https://img.shields.io/badge/Java-11+-orange?style=for-the-badge&logo=java)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Em%20Produção-green?style=for-the-badge)
+Sistema completo para controle de estoque, vendas e pedidos de peças para celular
 
-**Sistema completo para controle de estoque, vendas e pedidos de peças para celular**
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?style=flat-square&logo=github)](https://github.com/Luuh3k/Lista-Automatica)
-[![Issues](https://img.shields.io/badge/Contribuições-Bem--vindas-brightgreen?style=flat-square)](https://github.com/Luuh3k/Lista-Automatica/issues)
+https://img.shields.io/badge/GitHub-Reposit%C3%B3rio-black?style=flat-square&logo=github
+https://img.shields.io/badge/Contribui%C3%A7%C3%B5es-Bem--vindas-brightgreen?style=flat-square
 
 </div>
+📋 Índice
+📖 Sobre o Projeto
 
-## 📋 Índice
-- [📖 Sobre o Projeto](#-sobre-o-projeto)
-- [✨ Funcionalidades](#-funcionalidades)
-- [🚀 Demonstração](#-demonstração)
-- [🛠️ Tecnologias](#️-tecnologias)
-- [📦 Instalação](#-instalação)
-- [🎮 Como Usar](#-como-usar)
-- [🏗️ Arquitetura](#️-arquitetura)
-- [📊 Exemplos](#-exemplos)
-- [🤝 Contribuindo](#-contribuindo)
-- [📄 Licença](#-licença)
+✨ Funcionalidades
 
-## 📖 Sobre o Projeto
+🚀 Demonstração
 
+🛠️ Tecnologias
+
+📦 Instalação
+
+🎮 Como Usar
+
+🏗️ Arquitetura
+
+📊 Exemplos
+
+🤝 Contribuindo
+
+📄 Licença
+
+📖 Sobre o Projeto
 Sistema desenvolvido em Java para gestão completa de lojas de peças para celular. Controla estoque, vendas, devoluções e gera relatórios automáticos para pedidos com fornecedores.
 
-**🎯 Destaques:**
-- ✅ **Período automático 16h-16h** para listas de pedidos
-- ✅ **Sistema inteligente** de devoluções
-- ✅ **CRUD completo** de peças
-- ✅ **Interface console** intuitiva
-- ✅ **Relatórios automáticos** por categoria
+🎯 Destaques:
 
-## ✨ Funcionalidades
+✅ Período automático 16h-16h para listas de pedidos
 
-### 🏪 Gestão de Estoque
-| Funcionalidade | Descrição | Status |
-|----------------|-----------|---------|
-| **Cadastro de Peças** | Adicionar novas peças ao estoque | ✅ Implementado |
-| **Atualização** | Modificar dados e quantidades | ✅ Implementado |
-| **Exclusão** | Remover peças (com validações) | ✅ Implementado |
-| **Busca Inteligente** | Encontrar peças por nome | ✅ Implementado |
-| **Categorias Automáticas** | Organização por tipo | ✅ Implementado |
+✅ Sistema inteligente de devoluções
 
-### 💰 Controle Comercial
-| Funcionalidade | Descrição | Status |
-|----------------|-----------|---------|
-| **Registro de Vendas** | Com verificação de estoque | ✅ Implementado |
-| **Sistema de Devoluções** | Estorno automático na lista | ✅ Implementado |
-| **Pedidos Pendentes** | Lista de espera quando falta estoque | ✅ Implementado |
-| **Histórico Completo** | Registro de todas as movimentações | ✅ Implementado |
+✅ CRUD completo de peças
 
-### 📈 Relatórios & Analytics
-| Funcionalidade | Descrição | Status |
-|----------------|-----------|---------|
-| **Lista 16h-16h** | Período automático para pedidos | ✅ Implementado |
-| **Consolidação por Categoria** | Agrupamento inteligente | ✅ Implementado |
-| **Exportação para TXT** | Salvamento em arquivo | ✅ Implementado |
-| **Relatório de Devoluções** | Análise específica de estornos | ✅ Implementado |
+✅ Interface console intuitiva
 
-## 🚀 Demonstração
+✅ Relatórios automáticos por categoria
 
-### 🎮 Menu Principal
-
-```bash
+✨ Funcionalidades
+🏪 Gestão de Estoque
+Funcionalidade	Descrição	Status
+Cadastro de Peças	Adicionar novas peças ao estoque	✅ Implementado
+Atualização	Modificar dados e quantidades	✅ Implementado
+Exclusão	Remover peças (com validações)	✅ Implementado
+Busca Inteligente	Encontrar peças por nome	✅ Implementado
+Categorias Automáticas	Organização por tipo	✅ Implementado
+💰 Controle Comercial
+Funcionalidade	Descrição	Status
+Registro de Vendas	Com verificação de estoque	✅ Implementado
+Sistema de Devoluções	Estorno automático na lista	✅ Implementado
+Pedidos Pendentes	Lista de espera quando falta estoque	✅ Implementado
+Histórico Completo	Registro de todas as movimentações	✅ Implementado
+📈 Relatórios & Analytics
+Funcionalidade	Descrição	Status
+Lista 16h-16h	Período automático para pedidos	✅ Implementado
+Consolidação por Categoria	Agrupamento inteligente	✅ Implementado
+Exportação para TXT	Salvamento em arquivo	✅ Implementado
+Relatório de Devoluções	Análise específica de estornos	✅ Implementado
+🚀 Demonstração
+🎮 Menu Principal
+bash
 === SISTEMA LOJA DE PEÇAS PARA CELULAR ===
 📱 Baterias • Telas • Tampas 📱
 
@@ -83,9 +83,8 @@ Sistema desenvolvido em Java para gestão completa de lojas de peças para celul
 10. 📦 Lista Período 16h-16h
 11. 🔄 Ver Devoluções do Período
 0. 🚪 Sair
-
 📊 Exemplo de Lista de Pedidos
-
+text
 === 📋 LISTA DE PEDIDOS - PERÍODO 16h-16h ===
 🎯 INCLUI APENAS: Baterias • Telas/Frontais • Tampas
 Período: 15/12/2024 16:00 até 16/12/2024 16:00
@@ -104,9 +103,7 @@ Período: 15/12/2024 16:00 até 16/12/2024 16:00
 === 📊 RESUMO FINAL ===
 Total de unidades: 15
 Total de itens diferentes: 5
-
 🛠️ Tecnologias
-
 <div align="center">
 Camada	Tecnologias
 Linguagem	https://img.shields.io/badge/Java-11+-orange?logo=java
@@ -115,9 +112,7 @@ Data/Hora	https://img.shields.io/badge/Date%252FTime-API-green
 Arquivos	https://img.shields.io/badge/File-I%252FO-yellow
 Arquitetura	https://img.shields.io/badge/POO-Orientada%2520a%2520Objetos-purple
 </div>
-
 📦 Instalação
-
 ⚙️ Pré-requisitos
 Java 11 ou superior
 
@@ -125,19 +120,17 @@ Git
 
 Maven (opcional)
 
-
 🚀 Execução Rápida
-
+bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/loja-pecas-celular.git
-cd loja-pecas-celular
+git clone https://github.com/Luuh3k/Lista-Automatica.git
+cd Lista-Automatica
 
 # 2. Compile o projeto
 mvn compile
 
 # 3. Execute a aplicação
 mvn exec:java -Dexec.mainClass="com.empresa.pecas.Main"
-
 🖥️ No IntelliJ IDEA
 File → Open → Selecione a pasta do projeto
 
@@ -147,10 +140,9 @@ Clique direito em Main.java → Run 'Main.main()'
 
 Ou use o atalho: Ctrl+Shift+F10
 
-### 🎮 Como Usar
-
+🎮 Como Usar
 📋 Fluxo de Trabalho Diário
-
+bash
 # 1. 📊 VER ESTOQUE ATUAL
 Opção 1 → Lista organizada por categorias
 
@@ -162,11 +154,7 @@ Opção 5 → Remove automaticamente da lista
 
 # 4. 📦 GERAR LISTA PARA PEDIDOS
 Opção 10 → Lista consolidada 16h-16h
-
-
 🎯 Estoque Inicial Pré-Cadastrado
-
-
 Categoria	Peça	Estoque	Localização
 🔋 Baterias	iPhone 11	15	Prateleira A1
 🔋 Baterias	Samsung S20	12	Prateleira A2
@@ -177,11 +165,10 @@ Categoria	Peça	Estoque	Localização
 🎯 Tampas	iPhone 13	20	Gaveta C1
 🎯 Tampas	Samsung S21	18	Gaveta C2
 🎯 Tampas	Xiaomi	25	Gaveta C3
-
-
 🏗️ Arquitetura
-
-loja-pecas-celular/
+📁 Estrutura do Projeto
+text
+Lista-Automatica/
 ├── 📁 src/
 │   └── 📁 main/
 │       └── 📁 java/
@@ -200,10 +187,7 @@ loja-pecas-celular/
 │                       │   └── 📄 PecaService.java
 │                       └── 📄 Main.java
 └── 📄 README.md
-
-
 🔧 Padrão Arquitetural MRS
-
 Model: Entidades de dados (Peca, Historico, PedidoPendente)
 
 Repository: Camada de acesso a dados (in-memory)
@@ -213,9 +197,8 @@ Service: Lógica de negócio e regras
 Main: Interface do usuário e coordenação
 
 📊 Exemplos
-
 💰 Registro de Venda
-
+java
 // Sistema automaticamente:
 // 1. ✅ Verifica estoque disponível
 // 2. ✅ Atualiza quantidade no estoque  
@@ -223,33 +206,38 @@ Main: Interface do usuário e coordenação
 // 4. ✅ Cria pedido pendente se necessário
 
 Entrada: Venda de 2 Telas iPhone 12
-
 Saída: 
 ✅ Estoque atualizado: 8 → 6
 ✅ Histórico registrado
 ✅ Lista de pedidos: Tela iPhone 12: 2 unidades
-
 🔄 Processamento de Devolução
-
+java
 // Devolução remove automaticamente da lista
 Entrada: Devolução de 1 Tela iPhone 12
 Saída:
-
 🔄 Estoque: 6 → 7
 🔄 Lista atualizada: Tela iPhone 12: 1 unidade (2 - 1)
 🔄 Histórico de devolução registrado
-
-
 ⚠️ Estoque Insuficiente
-
+java
 // Quando não há estoque suficiente
 Entrada: Venda de 10 Telas iPhone 12 (estoque: 6)
 Saída:
-
 ⏳ PEDIDO PENDENTE: Estoque insuficiente
 📋 Criado pedido na lista de espera (ID: 1)
+🤝 Contribuindo
+Contribuições são muito bem-vindas! Siga estos passos:
 
+📋 Como Contribuir
+Fork o projeto
 
+Crie uma branch para sua feature (git checkout -b feature/AmazingFeature)
+
+Commit suas mudanças (git commit -m 'Add some AmazingFeature')
+
+Push para a branch (git push origin feature/AmazingFeature)
+
+Abra um Pull Request
 
 🎯 Roadmap de Melhorias
 Conexão com banco de dados SQL
@@ -273,14 +261,35 @@ Mantenha a arquitetura MRS
 
 Escreva testes unitários para novas features
 
+📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para detalhes.
+
+text
+MIT License
+Copyright (c) 2024 Luuh3k
+
+Permissão é concedida, gratuitamente, a qualquer pessoa...
 👨‍💻 Autor
-Lucas Costa - lucas.digital18@gmail.com
+Luuh3k - seu-email@dominio.com
 
-GitHub: [@seu-usuario](https://github.com/Luuh3k)
+GitHub: @Luuh3k
 
-LinkedIn: [Seu Perfil](https://www.linkedin.com/in/costalucas96/)
-
+LinkedIn: Seu Perfil
 
 🙏 Agradecimentos
--Inspirado nas necessidades reais de lojas de assistência técnica
+Inspirado nas necessidades reais de lojas de assistência técnica
 
+Comunidade Java por recursos e exemplos
+
+Contribuidores que ajudaram a melhorar o projeto
+
+<div align="center">
+⭐️ Se este projeto te ajudou, deixe uma estrela no repositório!
+📞 Dúvidas? Abra uma issue
+
+bash
+# 🚀 Pronto para usar!
+git clone https://github.com/Luuh3k/Lista-Automatica.git
+Feito com ❤️ e ☕ para a comunidade de desenvolvedores
+
+</div>
